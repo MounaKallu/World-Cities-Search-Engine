@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/City.css">
+    <title>World Cities DB | City</title>
+</head>
+<body>
+<button onclick="document.location= './index.html'" class="homeBtn">New Search</button>
+<button id="quit-btn" onclick="document.location= './close.html'" class="homeBtn" style="float:right;">QUIT</button>
+<br>
+<h1 style="text-align: center">Search results for city </h1>
+<h1 id="city-name" style="text-align: center;"></h1>
+<!--<div id="result"></div>-->
+<div style="font-size: 20px">
+    <b>Country:</b><i id="country-name" class="paraValue"></i><br>
+    <b>Latitude:</b> <i id="lat-val" class="paraValue"></i><br>
+    <b>Longitude:</b><i id="lng-val" class="paraValue"></i><br>
+    <b>Population:</b><i id="pop-val" class="paraValue"></i><br>
+    <b>ISO2:</b><i id="iso2-val" class="paraValue"></i><br>
+    <b>ISO3:</b><i id="iso3-val" class="paraValue"></i><br>
+    <b>Comments:</b><br>
+    <i id="comment-val" class="paraValue"></i><br>
+    <input type="text" id="update-tb" class="inputSearch" placeholder="Enter comments">
+    <button id='submit-btn' class="btn" >Submit</button>
+
+</div>
+<!--<div>-->
+<!--    <img src="./assets/css/Images/red.jpg">-->
+<!--</div>-->
+
+<div id="nearby-cities" style="float: bottom">
+    <h2>Near By Cities (within 50 KM)</h2>
+    <p id="nearby-cities-content"></p>
+</div>
+<script src="./assets/js/city.js"></script>
+<!-- <script src="./assets/js/comment.js"></script> -->
+</body>
+</html>

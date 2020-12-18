@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Search.css">
+    <title>World Cities DB | City</title>
+</head>
+<body>
+<button onclick="document.location= './index.html'" class="homeBtn">New Search</button>
+        <button onclick="document.location= './close.html'" class="homeBtn" style="float:right;">QUIT</button>
+        <br>
+<h1>Nearby city search</h1>
+<div class="center">
+    <input type="text" class="inputSearch" id="lat-tb" placeholder="Latitude">
+    <input type="text" class="inputSearch" id="lng-tb" placeholder="Longitude"> <br>
+    <input type="text" class="inputSearch" id="max-tb" placeholder="Maximum distance (in meters)">
+    <input type="text" class="inputSearch" id="min-tb" placeholder="Minimum distance (in meters)">
+    <button class="btn" id='search-btn'>Search</button>
+</div><br><br><br><br>
+    <div id="result"></div>
+    <script src="./assets/js/nearby.js"></script>
+</body>
+</html>
+
+

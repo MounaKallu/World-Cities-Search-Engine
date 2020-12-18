@@ -1,0 +1,72 @@
+*{
+    font-family: Comic Sans MS, serif;
+}
+html{
+    background-color: lightblue;
+}
+.inputSearch {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn {
+    position: page;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    /*border: None;*/
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.homeBtn {
+    position: page;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 10px;
+    padding: 10px 20px;
+    /*border: None;*/
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.homeBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+/*.paraHeading{*/
+/*    font-size: 16px;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.paraValue{*/
+/*    font-size: 16px;*/
+/*}*/
+.resultBtn {
+    background-color: lightgray;
+    color: black;
+    font-size: 10px;
+    padding: 10px 20px;
+    /*border: None;*/
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+.resultBtn:hover {
+    background-color: steelblue;
+    color: white;
+}

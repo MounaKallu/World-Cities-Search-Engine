@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Search.css">
+    <title>World Cities DB | Cities</title>
+</head>
+<body>
+    <div>
+        <button onclick="document.location= './index.html'" class="homeBtn">New Search</button>
+        <button onclick="document.location= './close.html'" id="quit-btn" class="homeBtn" style="float:right;">QUIT</button>
+        <br>
+        </div>
+    <h1>City Search</h1>
+
+    <div class="center">
+    <input type="text" id="input-tb" class="inputSearch" placeholder="Enter city name">
+    <button id='search-btn' class="btn">Search</button>
+        </div><br><br><br><br>
+    <div id="result"></div>
+    <div>
+    <script src="./assets/js/city.js"></script>
+        </div>
+</body>
+</html>
